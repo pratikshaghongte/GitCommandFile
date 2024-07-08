@@ -1,0 +1,58 @@
+First step: 
+1. sign in github.com
+2.Click on new repo
+3.Name this repo -> click on checkbox (
+Add a README file)
+4. click on create repository button
+
+->go to the any folder and open cmd under that folder
+
+this link avilable on click on code copy https used this
+->git clone <repository>
+ex: git clone https://github.com/pratikshaghongte/Demo.git
+
+->cd <repository>
+ex:cd demo
+
+->go to the folder and add files whichever ou need to push
+
+->git status (file in red color)
+result:On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+->git add <file> | git add .
+
+
+->git status (file in green color)
+Result:On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+
+->git commit -m "message"
+->git push
+
+
+This is for suppose multiple brance on repo you need to push files on another brance then used
+
+git clone <repository>
+cd <repository>
+git branch
+git checkout <branchName>
+git pull
+git status
+git add <file> | git add .
+git commit -m "message"
+git push 
+
+
+How to delete branch:
+go to the repo -> top side click on setting -> last line delete option avilable
